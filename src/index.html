@@ -5,34 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website </title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./styles/style.css">
+<!--    <link rel="stylesheet" href="../dist/style.css">-->
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+    ">
 </head>
-<body class="main-content">
+<body class="main-content bulma  is-family-monospace is-white is-medium has-background-white is-white has-text-white ">
     <main>
         <!-- The Home Section -->
-
-        <section class="home-section section-main section-main-one active-section" id="home">
-            <div class="swiper mySwiper row container">
-                <div class="swiper-pagination row ">
+        <section
+                class="home-section is-full-widescreen is-fullheight is-fixed-top   section-main section-main-one active-section section is-full-widescreen
+        " id="home">
+            <div class="swiper is-flex row container">
+    exit            <div class="swiper-pagination row ">
                 </div>
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide row ">
-                  <div class="swiper-content">
-                    <div class="name-text">
-                        <h1 class="name">
+                  <div class="swiper-slide bulma row is-flex is-flex-grow-1 is-flex-wrap-wrap-reverse is-align-items-center 
+                  is=justify-content-center
+                  
+                  is-fullheight">
+                  <div class="swiper-content bulma is-flex is-flex-grow-1 is-flex-shrink-1 is-narrow">
+                    <div class="name-text bulma
+                    is-flex is-flex-direction-column is-justify-content-center is-align-items-center is-1
+                 ">
+                        <h1 class="name is-medium has-text-success">
                             <span style="font-size:xx-large;">ሰላም</span>
                         </h1>
-                        <p >
+                        <p class="is-size-4 is-wrapped ">
                           You can call me Amanuel Tsehay. I'm a full-stack web developer and a....
                         </p>
 
                     </div>
-                    <div class="btn-container">
-                        <a href="./resources/amanuel-resume.pdf" class="btn btn-primary" download="resume-amanuel.pdf">
+                    <div class="btn-container bulma is-relative is-flex is-flex-wrap-wrap is-align-content-center is-align-content-center is-bordered is-7 is-medium">
+                        <a href="./resources/amanuel-resume.pdf"
+                           class="btn btn-primary is-flex is-flex-wrap-wrap is-bordered box has-text-black is-justify-content-center is-align-items-center is-align-content-center is-small"
+                           download="resume-amanuel.pdf">
                             <span class="btn-text">
                                 Download CV  
                             </span>
-                            <span class="btn-icon">
+                            <span class="btn-icon bulma is-medium is-flex is-align-items-center ">
                                 <i class="fas fa-download"></i>
                             </span>
                         
@@ -84,6 +94,8 @@
                         </div>
                         
                       </div>
+<!--                      HAR'AAF-->
+<!--                      HARRAAF-->
                     <div class="swiper-content ">
                         <div class="name-text">
                             <h1 class="name">
@@ -118,182 +130,178 @@
 
 <!-- The About Section  -->
 
-        <section class="section section-main section-main-two section-about" id="about">
-            <!-- <div class="relative-control">
-                <div class="controls">
-                    <div class="control control-6" data-id="hobbies">
-                        <i class="fa-solid fa-atom"></i>
-                    </div>
-                </div>
+        <section
+                class="section section-main section-main-two  section-about bulma   "
+                 id="about">
+            <div class="intro-title bulma is-relative is-flex is-justify-content-center ">
+                <h2 class="bulma is-relative  is-size-2 is-uppercase  has-text-success">About Me </h2>
             </div>
-            -->
-            
-
-            <div class="intro-title">
-                <h2>About <span class="me-text"> Me </span><span class="backgroud-text">About Me</span></h2>
-            </div>
-            <div class="about-container">
+            <div class="about-container is-flex is-flex-wrap-wrap is-justify-content-center">
                 
-                <div class="about-me-left">
+                <div class="about-me-left bulma is-flex is-flex-direction-column is-align-items-center is-flex-direction-column">
                     <h2 class="info-title"></h2>
                     <p>
                         I am a full-stack web developer and a computer science student at Addis Ababa University. I have a passion for web development and love to create for web and mobile devices.
                     </p>
 
-                    <div class="btn-container about-btn-container">
-                        <a href="#" class="btn btn-primary">
+                    <div class="btn-container bulma is-relative is-flex is-flex-wrap-wrap is-align-content-center is-align-content-center is-bordered is-10">
+                        <a href="./resources/amanuel-resume.pdf"
+                           class="btn btn-primary bulma  is-flex is-flex-wrap-wrap is-bordered box has-text-black is-justify-content-center is-align-items-center is-align-content-center is-small"
+                           download="resume-amanuel.pdf">
                             <span class="btn-text">
-                                Download CV  
+                                Download CV
                             </span>
-                            <span class="btn-icon">
+                            <span class="btn-icon bulma is-medium is-flex is-align-items-center ">
                                 <i class="fas fa-download"></i>
                             </span>
-                        
+
                         </a>
 
-                    </div>      
+                    </div>
                 </div>
 
-                
 
-                <div class="about-me-right">
-                    <div class="about-item">
-                        <div class="about-text">
+                <div class="about-me-right bulma is-flex is-1 is-align-items-center is-justify-content-center is-flex-wrap-wrap">
+                    <div class="about-item bulma my-2 mx-2 is-10 is-size-1 is-bordered has-text-success has-text-weight-bold is-bordered has-shadow is-offset-2 is-size-7">
+                        <div class="about-text is-flex is-flex-direction-column is-10 is-size-5 box">
                             <p class="about-large-text">2</p>
                             <p class="small-text">Projects <br> Started</p>
                         </div>
                     </div>
 
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
-                            <p class="small-text">Projects <br> <Compteled></Compteled></p>
-                        </div>
-                    </div>
-
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
+                    <div class="about-item bulma my-2 mx-2 is-10 is-size-1 is-bordered has-text-success has-text-weight-bold is-bordered has-shadow is-offset-2 is-size-7">
+                        <div class="about-text is-flex is-flex-direction-column is-10 is-size-5 box">
+                            <p class="about-large-text">2</p>
                             <p class="small-text">Projects <br> Started</p>
                         </div>
                     </div>
 
-                    <div class="about-item">
-                        <div class="about-text">
-                            <p class="about-large-text">0</p>
+                    <div
+                            class="about-item bulma p-2 my-2 mx-2 is-10 is-size-1 is-bordered has-text-success has-text-weight-bold is-bordered has-shadow is-offset-2 is-size-7">
+                        <div class="about-text is-flex is-flex-direction-column is-10 is-size-5 box">
+                            <p class="about-large-text">2</p>
+                            <p class="small-text">Projects <br> Started</p>
+                        </div>
+                    </div>
+
+                    <div class="about-item bulma my-2 mx-2 is-10 is-size-1 is-bordered has-text-success has-text-weight-bold is-bordered has-shadow is-offset-2 is-size-7">
+                        <div class="about-text is-flex is-flex-direction-column is-10 is-size-5 box">
+                            <p class="about-large-text">2</p>
                             <p class="small-text">Projects <br> Started</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="about-skills">
-                <h3 class="skills-title">
-                   My Skills 
+            <div class="about-skills is-2">
+<h3
+        class="skills-title  bulma is-relative has-text-centered has-text-info is-1 is-size-3 has-text-weight-medium is-uppercase">
+                   My Skills
                 </h3>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="progress-title">HTML</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                <div class="progress-bars bulma is-flex is-flex-wrap-wrap is-justify-content-space-between ">
+                    <div class="progress-bar my-4 bulma  " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">HTML</p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1 ">
                                 80%
                             </div>
-                            <div class="progress">
-                                <span class="prog-line html">
+                            <div class="progress bulma is-relative  " style="height: 0.25rem">
+                                <span class="prog-line html bulma is-half has-background-success">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Css</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">Css</p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1">
                                 60%
                             </div>
-                            <div class="progress">
+                            <div class="progress is-relative" style="height: 0.25rem">
                                 <span class="prog-line css">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">JavaScript</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">JS<p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1">
                                 60%
                             </div>
-                            <div class="progress">
+                            <div class="progress is-relative" style="height: 0.25rem">
                                 <span class="prog-line js">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">React</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">React</p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1">
                                 60%
                             </div>
-                            <div class="progress">
+                            <div class="progress is-relative" style="height: 0.25rem">
                                 <span class="prog-line react">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">NodeJS</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">NodeJs</p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1">
                                 50%
                             </div>
-                            <div class="progress">
+                            <div class="progress is-relative" style="height: 0.25rem">
                                 <span class="prog-line node">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Java</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium"> Java </p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1 ">
                                 80%
                             </div>
-                            <div class="progress">
+                            <div class="progress is-relative" style="height: 0.25rem">
                                 <span class="prog-line java">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Python</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">Python</p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1">
                                 70%
                             </div>
-                            <div class="progress">
+                            <div class="progress bulma is-relative is-fullwidth is-small has-background-grey  "
+                                 style="height: 0.25rem">
                                 <span class="prog-line python">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Spring Boot</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">Spring Boot</p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1">
                                 60%
                             </div>
-                            <div class="progress">
+                            <div class="progress is-relative" style="height: 0.25rem">
                                 <span class="prog-line spring-boot">
                                 </span>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="progress-title">Bootstrap</p>
-                        <div class="progresses">
-                            <div class="progress-value progress-text">
+                    <div class="progress-bar my-4 " style="width: 45%; min-width: 250px;">
+                        <p class="progress-title has-text-weight-medium ">BootStrap</p>
+                        <div class="progresses is-flex is-justify-content-center is-align-items-center ">
+                            <div class="progress-value progress-text bulma p-1">
                                 30%
                             </div>
-                            <div class="progress">
+                            <div class="progress is-relative" style="height: 0.25rem">
                                 <span class="prog-line bootstrap">
                                 </span>
                             </div>
@@ -314,19 +322,22 @@
 <!-- The Projects Section  -->
 
         <section class="section section-main section-main-three section-projects" id="projects">
-            <div class="intro-title">
-                <h2>My <span class="me-text"> Pojects </span><span class="backgroud-text">Projects</span></h2>
+            <div class="intro-title bulma is-relative is-flex is-justify-content-center ">
+                <h2 class="bulma is-relative  is-size-2 is-uppercase  has-text-success">MY Projects  </h2>
             </div>
 
-            <p class="portfolio-text"> Some of the Projects I'm currently working on</p>
+            <p class="portfolio-text bulma  my-auto is-flex p-2 is-flex-wrap-wrap is-justify-content-center "> Some
+                of the
+                Projects I'm currently working
+                on</p>
 
-            <div class="project-container">
+            <div class="project-container bulma  columns is-centered is-multiline is-variable is-1">
 
-                <div class="a-project">
-                    <div class="proj-img-text">
+                <div class="a-project  column is-one-third-desktop is-full-mobile">
+                    <div class="proj-img-text bulma is-flex is-justify-content-center is-align-items-center is-flex-direction-column">
 
                         <p>Twitter Clone </p>
-                        <div class="project-image">
+                        <div class="project-image is-fullwidth is-fullheight p-3 is-bordered box ">
                             <img src="./images/react-twitter-clone.jpg" alt="">
                         </div>
                     </div>
@@ -335,8 +346,10 @@
                         <p class="proj-description">A twitter clone project to learn the in and out of enterprise web development</p>
                         <div>
                             <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="https://github.com/Amantsehay/Ctwitter" target="_blank" class="icon">
+                            <div class="icons bulma is-flex is-justify-content-center is-align-items-center">
+
+                            <a href="https://github.com/Amantsehay/Ctwitter" target="_blank" class="icon is-flex is-justify-content-center is-align-items-center is-size-1-desktop is-size-2-mobile">
+
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -344,10 +357,11 @@
             
                     </div>
                 </div>
-                <div class="a-project">
-                    <div class="proj-img-text">
-                        <p>Car Sales Website </p>
-                        <div class="project-image">
+                <div class="a-project bulma column is-one-third-desktop is-full-mobile">
+                    <div class="proj-img-text bulma is-flex is-justify-content-center is-align-items-center is-flex-direction-column">
+
+                    <p>Car Sales Website </p>
+                        <div class="project-image is-fullwidth is-fullheight p-3 is-bordered box ">
                             <img src="./images/car-sales-picture.jpeg" alt="">
                         </div>
                     </div>
@@ -356,8 +370,10 @@
                         <p class="proj-description">A car sales website to learn the in and out of enterprise web development</p>
                         <div>
                             <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="https://github.com/Amantsehay/TreasureCart" target="_blank" class="icon">
+                            <div class="icons bulma is-flex is-justify-content-center is-align-items-center">
+
+                            <a href="https://github.com/Amantsehay/TreasureCart" target="_blank" class="icon is-flex is-justify-content-center is-align-items-center is-size-1-desktop is-size-2-mobile">
+
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -365,11 +381,12 @@
                         
                     </div>
                 </div>
-                <div class="a-project">
-                    <div class="proj-img-text">
+                <div class="a-project bulma column is-one-third-desktop is-full-mobile">
+                    <div class="proj-img-text bulma is-flex is-justify-content-center is-align-items-center is-flex-direction-column">
 
-                        <p>Dev Scrape</p>
-                        <div class="project-image">
+
+                    <p>Dev Scrape</p>
+                        <div class="project-image is-fullwidth is-fullheight p-3 is-bordered box ">
                             <img src="./images/dev-scrap-picture.jpg" alt="">
                         </div>
                     </div>
@@ -378,8 +395,9 @@
                         <p class="proj-description">A Web Scraping project to learn to have a good understanding of data intensive projects and AI </p>
                         <div>
                             <h4>Project Source</h4>
-                            <div class="icons">
-                                <a href="link-to-github" target="_blank" class="icon">
+                            <div class="icons bulma is-flex is-justify-content-center is-align-items-center">
+                                <a href="link-to-github" target="_blank"
+                                   class="icon is-flex is-justify-content-center is-align-items-center is-size-1-desktop is-size-2-mobile">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -396,12 +414,9 @@
 
 
 
-
         <section class="section section-main section-main-four section-blogs" id="blogs">
-            
-
-            <div class="intro-title">
-                <h2>Hobbi <span class="me-text"> es Ho </span><span class="backgroud-text">bies</span></h2>
+            <div class="intro-title bulma is-relative is-flex is-justify-content-center ">
+                <h2 class="bulma is-relative  is-size-2 is-uppercase  has-text-success">MY Hobbies  </h2>
             </div>
             <div class="hobbies-container">
                 
@@ -511,94 +526,108 @@
         <section class="section section-main-five section-contact" id="contact">
 
             <div class="contact-container">
-                <div class="intro-title">
-                    <h2>Contact<span class="me-text"> Me </span><span class="backgroud-text">Contact Me</span></h2>
+                <div class="intro-title bulma is-relative is-flex is-justify-content-center ">
+                    <h2 class="bulma is-relative  is-size-2 is-uppercase  has-text-success">Contact Me</h2>
                 </div>
 
-                <div class="contact-content">
-                    <div class="left-contact">
-                        <h4 class="title-know">Let's Know Each Other</h4>
-                        
-                        <div class="contact-info">
-                            <div class="contact-item">
+                <div class="contact-content is-flex is-flex-wrap-wrap-reverse is-align-items-center is-justify-content-center ">
+                    <div class="left-contact bulma is-flex is-flex-direction-column is-flex-grow-3">
+                        <h4 class="title-know bulma is-size-4-desktop is-size-6-mobile my-1 is-uppercase ">Let's Know
+                            Each
+                            Other</h4>
+                        <div class="contact-info bulma is-flex is-flex-direction-column ">
+                            <div class="contact-item bulma is-flex is-justify-content-space-between">
                                 <div class="icon">
                                     <i class="fa fa-map-marker"></i>
-                                    <h4>Location</h4>
+                                    <h4 class="is-uppercase">Location</h4>
                                 </div>
-                                <p class="contact-item-description">Addis Ababa, Ethiopia</p>
+                                <p class="contact-item-description bulma " >Addis
+                                    Ababa,
+                                    Ethiopia</p>
                             </div>
-                            <div class="contact-item">
-                                <div class="icon">
+                            <div class="contact-item bulma is-flex is-justify-content-space-between">
+
+                            <div class="icon">
                                     <i class="fa fa-envelope"></i>
-                                    <h4>Email</h4>
+                                    <h4 class="is-uppercase">Email</h4>
                                 </div>
                                 <p class="contact-item-description"> <a href = "mailto: amanueltsehay11@gmail.com">amanueltsehay11@gmail.com</a></p>
                             </div>
-                            <div class="contact-item">
-                                <div class="icon">
+                            <div class="contact-item bulma is-flex is-justify-content-space-between mx-1">
+
+                            <div class="icon">
                                     <i class="fa fa-user-graduate"></i>
-                                    <h4>Education</h4>
+                                    <h4 class="is-uppercase">Education</h4>
                                 </div>
                                 <p class="contact-item-description"> Addis Ababa University, Ethiopia</p>
                             </div>
-                            <div class="contact-item">
-                                <div class="icon">
+                            <div class="contact-item bulma is-flex is-justify-content-space-between">
+
+                            <div class="icon">
                                     <i class="fa fa-mobile-phone"></i>
-                                    <h4>Location</h4>
+                                    <h4 class="is-uppercase">Location</h4>
                                 </div>
                                 <p class="contact-item-description"> Addis Ababa, Ethiopia</p>
                             </div>
-                            <div class="contact-item">
-                                <div class="icon">
+                            <div class="contact-item bulma is-flex is-justify-content-space-between mx-1">
+                            <div class="icon">
                                     <i class="fa fa-language"></i>
-                                    <h4>Languages</h4>
+                                    <h4 class="is-uppercase">Languages</h4>
                                 </div>
                                 <p class="contact-item-description"> Amharic, English, French</p>
                             </div>
                         </div>
 
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="https://www.linkedin.com/in/amanuel-wondim-30843523a/" target="_blank">
-                                    <i class="fa-brands fa-linkedin"></i>
+                        <div class="contact-icons bulma mx-1 is-flex is-justify-content-center">
+                            <div class="contact-icon is-rounded ">
+                                <a href="https://www.linkedin.com/in/amanuel-wondim-30843523a/" target="_blank"
+                                   class="is-flex is-justify-content-center is-align-items-center is-rounded p-4 is-size-7 mx-1 has-shadow has-background-grey-dark button ">
+                                    <i class="fa-brands fa-linkedin is-white"></i>
                                 </a>
                             </div>
                             <div class="contact-icon">
-                                <a href="https://github.com/Amantsehay" target="_blank">
-                                    <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/Amantsehay" target="_blank"  class="is-flex is-justify-content-center is-align-items-center is-rounded p-4 is-size-7 mx-1 has-shadow has-background-grey-dark button ">
+
+                                <i class="fa-brands fa-github"></i>
                                 </a>
                             </div>
                             <div class="contact-icon">
-                                <a href="https://www.instagram.com/aman_tsehay/" target="_blank">
-                                    <i class="fa-brands fa-instagram"></i>
+                                <a href="https://www.instagram.com/aman_tsehay/" target="_blank"  class="is-flex is-justify-content-center is-align-items-center is-rounded p-4 is-size-7 mx-1 has-shadow has-background-grey-dark button ">
+
+                                <i class="fa-brands fa-instagram"></i>
                                 </a>
                             </div>
                             <div class="contact-icon">
-                                <a href="https://www.facebook.com/amanuel.tsehay.391" target="_blank">
-                                    <i class="fa-brands fa-facebook"></i>
+                                <a href="https://www.facebook.com/amanuel.tsehay.391" target="_blank"  class="is-flex is-justify-content-center is-align-items-center is-rounded p-4 is-size-7 mx-1 has-shadow has-background-grey-dark button ">
+
+                                <i class="fa-brands fa-facebook"></i>
                                 </a>
                             </div>
                             <div class="contact-icon">
-                                <a href="https://twitter.com/amanueltsehay1" target="_blank">
-                                    <i class="fa-brands fa-twitter"></i>
+                                <a href="https://twitter.com/amanueltsehay1" target="_blank"  class="is-flex is-justify-content-center is-align-items-center is-rounded p-4 is-size-7 mx-1 has-shadow has-background-grey-dark button ">
+
+                                <i class="fa-brands fa-twitter"></i>
                                 </a>
                             </div>
                             
                         </div>
                     </div>
 
-                    <div class="right-contact">
+                    <div class="right-contact bulma is-flex is-flex-grow-3 mx-2 ">
                         <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" name="name" id="name" placeholder="Name" required>
-                                <input type="text" name="email" id="email" placeholder="Email" required>
+                            <div class="input-control i-c-2 bulma my-2 is-flex ">
+                                <input type="text" name="name" id="name" placeholder="Name" required
+                                       class="bulma input has-background-grey-light has-text-white-ter ">
+                                <input type="text" name="email" id="email" placeholder="Email" required class="bulma input has-background-grey-light has-text-white-ter">
                             </div>
                             <div class="input-control">
-                                <input type="text" name="subject" id="subject" placeholder="Subject" required>   
+                                <input type="text" name="subject" id="subject" placeholder="Subject" required
+                                       class="bulma input has-background-grey-light has-text-white-ter">
                             </div>
 
                             <div class="input-control">
-                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required
+                                class="bulma textarea has-background-grey-light has-text-black"></textarea>
                             </div>
 
                             <div class="input-control btn-submit">
@@ -619,24 +648,27 @@
     </main>
 
 
+<!-- The controls section -->
 
-    <div class="controls">
+
+    <div class="controls is-fixed-bottom-touch is-justify-content-center is-flex-direction-column is-align-items-center  is-above is-pulled-right is-offset-5 has-text-centered-touch box is-flex">
         
-            <div class="control control-1 active-btn"   data-id="home">
-                <i class="fa-solid fa-house"></i>
+            <div
+                    class="control control-1 active-btn  bulma button is-normal is-responsive is-active is-primary is-gray-4 is-selected is-rounded "   data-id="home">
+                <i class="fa-solid fa-house "></i>
             </div>
-            <div class="control control-2"   data-id="about">
+            <div class="control control-2 bulma button is-normal is-responsive is-active is-primary is-gray-4 is-selected is-rounded"   data-id="about">
                 <i class="fa-solid fa-user"></i>
             </div>
             <!-- the project icos -->
-            <div class="control control-3"   data-id="projects">
+            <div class="control control-3 bulma button is-normal is-responsive is-active is-primary is-gray-4 is-selected is-rounded"   data-id="projects">
                 <i class="fa-solid fa-project-diagram"></i>
             </div>
             <!-- Hobbies icon  -->
-            <div class="control control-4"   data-id="blogs">
+            <div class="control control-4 bulma button is-normal is-responsive is-active is-primary is-gray-4 is-selected is-rounded"   data-id="blogs">
                 <i class="fas fa-gamepad"></i>
             </div>
-            <div class="control control-5"   data-id="contact">
+            <div class="control control-5 bulma button is-normal is-responsive is-active is-primary is-gray-4 is-selected is-rounded"   data-id="contact">
                 <i class="fa-solid fa-envelope"></i>
 
         </div>
@@ -678,8 +710,11 @@
     </div>
 
 
-    <footer class="footer-class">
-        <p>© 2023 Amanuel Tsehay. All rights reserved.</p>
+    <footer class="footer-class bulma is-fixed-bottom is-fullwidth has-background-grey-dark is-size-5 ">
+        <p
+                class="is-size-7 has-text-weight-medium p-3 has-text-centered has-text-white has-text-weight-bold is-large py-3">© 2023 Amanuel
+            Tsehay. All
+            rights reserved.</p>
     </footer>
 
 
